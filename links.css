@@ -1,0 +1,59 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.top{
+    text-align:center;
+    background-color:rgba(0, 0, 0,7%);
+    margin-bottom: 20px;
+}
+.outer{
+    background-color: rgba(0, 0, 0,30%);
+    margin:60px 30px;
+    
+    
+    display:flex;
+    flex-direction: column;
+}
+input,#but{
+    padding:10px;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+#name{
+    margin:15px 15px;
+}
+#linkk{
+    margin: 0px 15px 0px 15px;
+}
+
+#but{
+margin:20px 20px 20px 20px;
+}
+#but:hover{
+    background-color: black;
+    color:white;
+}
+#display{
+    margin:20px 45px;
+    
+    display:flex;
+    flex-direction: column;
+}
+a{
+    margin-bottom: 5px;
+    padding:20px 40px;
+    background-color: rgba(0, 0, 0,30%);
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:black;
+}
+a:hover{
+background-color: rgba(0, 0, 0,20%);
+color:grey;
+}
